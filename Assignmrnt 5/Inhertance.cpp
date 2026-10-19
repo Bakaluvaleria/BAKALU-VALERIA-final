@@ -1,4 +1,4 @@
-INHERITANCE
+/*INHERITANCE
 Inheritance is a core concept in Object-Oriented Programming (OOP) that allows a new class (called the derived or child class) to adopt the attributes and methods of an existing class (called the base or parent class).
 
 What Inheritance Does
@@ -7,8 +7,8 @@ What Inheritance Does
 • Establishes a Hierarchy: It models real-world "is-a" relationships (e.g., a Car is a Vehicle, a Dog is an Animal).
 • Enables Polymorphism: It allows a derived class to override parent methods to implement specific behaviors while maintaining a uniform interface.
 
- EXAMPLE OF A CODE 
- #include <iostream>
+ EXAMPLE OF A CODE */
+#include <iostream>
 #include <string>
 
 // Base Class (Parent)
@@ -48,9 +48,10 @@ int main() {
     return 0;
 }
 
-
+/*
 Key Elements of the Code:
 
 • public Animal: This syntax means Dog inherits from Animal publicly. Public members of Animal remain public in Dog.
 • protected Access Modifier: The name variable is protected. This means it cannot be accessed outside the class, but it can be accessed by derived classes like Dog.
 • Constructor Chaining: The Dog constructor uses an initializer list (: Animal(dogName)) to call the Animal constructor first, ensuring the parent properties are initialized correctly.
+*/
